@@ -11,11 +11,16 @@
         body {
             min-height: 75rem;
             padding-top: 4.5rem;
+            background-color: #32363e;
         }
         nav{
             margin: 10px;
             opacity: 0.75;
             border-radius: 5px;
+        }
+
+        .shadow-card {
+            box-shadow: 0 4px 6px -1px rgba(255, 255, 255, 0.1), 0 2px 4px -1px rgba(132, 132, 132, 0.291) !important;
         }
     </style>
     <title>Hello, world!</title>
@@ -44,28 +49,29 @@
                 <h1 class="display-3">Welcome</h1>
             </div>
         </div>
-        <hr>
-        <!--Most Recent Experience-->
+        <div class="rounded mx-2" style="background-color:rgba(0, 0, 0, 0.3)"><!--Background-->
+        <!--Experience-->
         <div class="container mt-sm-5 mt-3">
             <div class="row">
               <div class="col-sm-4">
                 <div class="position-sticky pb-lg-5 pb-3 mt-lg-0 mt-5 ps-2" style="top: 100px">
-                  <h3>Experience</h3>
+                  <h3 class="pt-3" style="color: #fff">Experience</h3>
                 </div>
               </div>
         
               <div class="col-sm-8">
                 <div class="row mt-3">
-                    <div class="col">
-                    <div class="position-relative border-radius-xl overflow-hidden shadow-lg mb-7">
+                    <!--Full Time-->
+                    <div class="col-12 pb-3">
+                    <div class="position-relative border-radius-xl overflow-hidden shadow-lg mb-7 rounded" style="background-color: white">
                         <div class="container border-bottom">
                         <div class="row justify-space-between py-2">
                             <div class="col me-auto">
-                            <p class="lead text-dark pt-1 mb-0">Emerson Automation Solutions</p>
+                            <p class="lead pt-2 mb-0">Emerson Automation Solutions</p>
                             </div>
                             <div class="col">
                             <div class="nav-wrapper position-relative end-0">
-                                <ul class="nav nav-pills nav-fill flex-row p-1 justify-content-end" role="tablist">
+                                <ul class="nav nav-pills nav-fill flex-row pt-2 justify-content-end" role="tablist">
                                     <li>
                                         <p class="text-sm p-1">Full Time</p>
                                     </li>
@@ -78,6 +84,141 @@
                                     </li>
                                 </ul>
                             </div>
+                            </div>
+                        </div>
+                        </div>
+                        <div class="tab-content tab-space">
+                        <div class="tab-pane active" id="preview-btn-color">
+                            <div class="row text-center py-3 mt-3">
+                    <div class="col mx-auto">
+                        
+                        <button type="button" class="btn btn-dark w-auto me-1 mb-1">C++</button>
+                        
+                        <button type="button" class="btn btn-dark w-auto me-1 mb-1">C#</button>
+                        
+                        <button type="button" class="btn btn-dark w-auto me-1 mb-1">QNX</button>
+                        
+                        <button type="button" class="btn btn-dark w-auto me-1 mb-1">WPF</button>
+                        
+                        <button type="button" class="btn btn-dark w-auto me-1 mb-1">MVVC</button>
+                        
+                        <button type="button" class="btn btn-dark w-auto me-1 mb-1">Hyper-V</button>
+                        
+                        <button type="button" class="btn btn-dark w-auto me-1 mb-1">VMWare</button>
+                        
+                        <button type="button" class="btn btn-dark w-auto me-1 mb-1">FinalBuilder</button>
+
+                        <button type="button" class="btn btn-dark w-auto me-1 mb-1">Agile</button>
+                        
+                    </div>
+                    </div>
+              <div class="row text-start py-3 mt-3">
+                <div class="col-10 mx-auto">
+                  <h4 style="float: left">Software Developer</h4><h4 style="float: right">Jul 2021 - Present</h4>
+                  <br>
+                  <br>
+                  <div>
+                    <ul>
+                      <li class="text-sm me-2">Item 1</li>
+                      <li class="text-sm me-2">Item 2</li>
+                    </ul>
+                  </div>
+                  <h4 style="float: left">Entry Software Developer</h4><h4 style="float: right">Jan 2019 - Jul 2021</h4>
+                  <br>
+                  <br>
+                  <div>
+                    <ul>
+                      <li class="text-sm me-2">Item 1</li>
+                      <li class="text-sm me-2">Item 2</li>
+                    </ul>
+                                    </div>
+                                    </div>
+                                </div>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--Internship-->
+                    <div class="col-12 pb-3">
+                            <div class="position-relative border-radius-xl overflow-hidden shadow-lg mb-7 rounded" style="background-color: white">
+                                <div class="container border-bottom">
+                                <div class="row justify-space-between py-2">
+                                    <div class="col me-auto">
+                                    <p class="lead pt-2 mb-0">Emerson Automation Solutions</p>
+                                    </div>
+                                    <div class="col">
+                                    <div class="nav-wrapper position-relative end-0">
+                                        <ul class="nav nav-pills nav-fill flex-row pt-2 justify-content-end" role="tablist">
+                                            <li>
+                                                <p class="text-sm p-1">Internship</p>
+                                            </li>
+                                            <li>
+                                                <p class="text-sm p-1"> | </p>
+                                            </li>
+                                            <li>
+                                                <p class="text-sm p-1">4 months</p>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    </div>
+                                </div>
+                                </div>
+                                <div class="tab-content tab-space">
+                                <div class="tab-pane active" id="preview-btn-color">
+                                    <div class="row text-center py-3 mt-3">
+                            <div class="col mx-auto">
+                                
+                                <button type="button" class="btn btn-dark w-auto me-1 mb-1">C++</button>
+                                
+                                <button type="button" class="btn btn-dark w-auto me-1 mb-1">C#</button>
+                                
+                                <button type="button" class="btn btn-dark w-auto me-1 mb-1">JavaScript</button>
+                                
+                                <button type="button" class="btn btn-dark w-auto me-1 mb-1">ElectronJS</button>
+                                
+                            </div>
+                            </div>
+                      <div class="row text-start py-3 mt-3">
+                        <div class="col-10 mx-auto">
+                          <h4 style="float: left">Intern Software Developer</h4><h4 style="float: right">May 2019 - Aug 2019</h4>
+                          <br>
+                          <br>
+                          <div>
+                            <ul>
+                              <li class="text-sm me-2">Item 1</li>
+                              <li class="text-sm me-2">Item 2</li>
+                            </ul>
+                          </div>
+                                            </div>
+                                        </div>
+                                        </div>
+                                        </div>
+                                    </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--End of Experience-->
+    <hr>
+        <!--Education-->
+        <div class="container mt-sm-5 mt-3">
+            <div class="row">
+              <div class="col-sm-4">
+                <div class="position-sticky pb-lg-5 pb-3 mt-lg-0 mt-5 ps-2" style="top: 100px">
+                  <h3 style="color: #fff">Education</h3>
+                </div>
+              </div>
+        
+              <div class="col-sm-8">
+                <div class="row mt-3">
+                    <!--Full Time-->
+                    <div class="col-12 pb-3">
+                    <div class="position-relative border-radius-xl overflow-hidden shadow-lg mb-7 rounded" style="background-color: white">
+                        <div class="container border-bottom">
+                        <div class="row justify-space-between py-2">
+                            <div class="col me-auto">
+                            <p class="lead pt-1 mb-0">Texas A&M University</p>
                             </div>
                         </div>
                         </div>
@@ -108,42 +249,86 @@
                     </div>
               <div class="row text-start py-3 mt-3">
                 <div class="col-10 mx-auto">
-                  <h4 style="float: left">Software Developer</h4><h4 style="float: right">Jul 2021 - Present</h4>
+                  <h4 style="float: left">Bachelors in Computer Engineering</h4><h4 style="float: right">2014 - 2018</h4>
                   <br>
                   <br>
                   <div>
                     <ul>
-                      <li class="text-sm me-2">Item 1</li>
-                      <li class="text-sm me-2">Item 2</li>
+                      <li class="text-sm me-2">Minors in Mathematics and Cybersecurity</li>
                     </ul>
                   </div>
-                  <h4 style="float: left">Entry Software Developer</h4><h4 style="float: right">Jan 2019 - Jul 2021</h4>
-                  <br>
-                  <br>
-                  <div>
-                    <ul>
-                      <li class="text-sm me-2">Item 1</li>
-                      <li class="text-sm me-2">Item 2</li>
-                    </ul>
-                                    </div>
                                     </div>
                                 </div>
                                 </div>
                                 </div>
                             </div>
                         </div>
+                        <!--Internship-->
+                    <div class="col-12 pb-3">
+                            <div class="position-relative border-radius-xl overflow-hidden shadow-lg mb-7 rounded" style="background-color: white">
+                                <div class="container border-bottom">
+                                <div class="row justify-space-between py-2">
+                                    <div class="col me-auto">
+                                    <p class="lead pt-1 mb-0">Houston Community College</p>
+                                    </div>
+                                </div>
+                                </div>
+                                <div class="tab-content tab-space">
+                                <div class="tab-pane active" id="preview-btn-color">
+                                    <div class="row text-center py-3 mt-3">
+                            <div class="col mx-auto">
+                                
+                                <button type="button" class="btn btn-dark w-auto me-1 mb-1">C++</button>
+                                
+                                <button type="button" class="btn btn-dark w-auto me-1 mb-1">C#</button>
+                                
+                                <button type="button" class="btn btn-dark w-auto me-1 mb-1">QNX</button>
+                                
+                                <button type="button" class="btn btn-dark w-auto me-1 mb-1">Objectivity</button>
+                                
+                                <button type="button" class="btn btn-dark w-auto me-1 mb-1">WPF</button>
+                                
+                                <button type="button" class="btn btn-dark w-auto me-1 mb-1">MVVC</button>
+                                
+                                <button type="button" class="btn btn-dark w-auto me-1 mb-1">Hyper-V</button>
+                                
+                                <button type="button" class="btn btn-dark w-auto me-1 mb-1">VMWare</button>
+                                
+                                <button type="button" class="btn btn-dark w-auto me-1 mb-1">FinalBuilder</button>
+                                
+                            </div>
+                            </div>
+                      <div class="row text-start py-3 mt-3">
+                        <div class="col-10 mx-auto">
+                          <h4 style="float: left">Associates in Applied Science</h4><h4 style="float: right">2012 - 2014</h4>
+                          <br>
+                          <br>
+                          <div>
+                            <ul>
+                                <li class="text-sm me-2">Emphasis on engineering technology, more specifically petroleum, wind and solar power.</li>
+                                <li class="text-sm me-2">Graduated with highest honors.</li>
+                            </ul>
+                          </div>
+                                            </div>
+                                        </div>
+                                        </div>
+                                        </div>
+                                    </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-        <!--End of Most Recent Experience-->
+        <!--End of Education-->
+        </div> <!--Background-->
+        
         <hr>
     </main>
 
 
 
     <footer class="container">
-        <p>Christian Tovar</p>
+        <p style="color: white">Christian Tovar</p>
         <a href="mailto: me@ctovar.dev">me@ctovar.dev</p>
     </footer>
     
